@@ -1,0 +1,13 @@
+Package: BSM
+Type: Package
+Title: Gene Selection from Expression Data using 'BSM' Approach
+Version: 0.1.0
+Author: Samarendra Das
+Maintainer: Samarendra Das <samarendra.das@louisville.edu>
+Date: 2020-09-04
+Description: Gene selection from high dimensional expression data is a challenging task in gene expression genomics. Therefore, the package provides functions to select relevant genes based on the bootstrap-support vector machine-maximum relevance and minimum redundancy (BSM) approach from high dimensional gene expression data through the adjusted p-values (Das et al. (2018) <doi:10.1016/j.gene.2018.02.044>). The genes selected based on these computed statistical significance values are more statistically informative and biologically relevant. Besides, it also provides functions to select genes based on gene ranking methods like support vector machine (SVM), described in Guyon et al. (2002) <doi.org/10.1023/A:1012487302797>, maximum relevance and minimum redundancy (MRMR) described in Peng et al. (2005) <doi: 10.1109/TPAMI.2005.159> and SVM-MRMR described in Mundra and Rajapakse (2010) <doi: 10.1109/TNB.2009.2035284>.
+Depends: R (>= 4.0), e1071, graphics
+License: GPL (>=2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
